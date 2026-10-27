@@ -83,7 +83,7 @@ if __name__ == "__main__":
         print(f"Berhasil Mencegah Instansiasi:\n-> TypeError: {e}\n")
 
     print("=== PENGUJIAN SISTEM KLINIK OOP (DENGAN ABC) ===")
-    p1 = Pasien("Andi", "6471012345678901", "Jl. Mulawarman", "RM-001", "Demam Berdarah", "O")
+    p1 = Pasien("Andi", "6471012345678901", "Jl. Mulawarman", "RM-001", "Panas", "O")
     d1 = Dokter("Dr. Budi", "6471111111111111", "Jl. P. Antasari", "DOC-101", "Penyakit Dalam", "Tetap")
     d2 = Dokter("Dr. Dewi", "6471222222222222", "Jl. Lambung Mangkurat", "DOC-102", "Anak", "Kontrak")
     
@@ -100,5 +100,5 @@ if __name__ == "__main__":
     klinik_sehat.info_klinik()
 
     print("\n--- Uji Rekam Medis (Komposisi) ---")
-    rm = RekamMedis("2026-10-07", "Infeksi saluran pernapasan ringan")
+    rm = RekamMedis("2026-10-07", "Demam Berdarah")
     print(f"Pasien {p1.nama} dengan No RM {p1.no_rm} mendapat diagnosa: {rm.diagnosa} pada tanggal {rm.tanggal}.")
