@@ -20,6 +20,7 @@ Penjelasan : Hubungan antarapasien dan rekam medis, dimana rekam medis merupakan
 2.Abstraksi (Abstract Base Class)
 bukti abstract class yang tidak dapat diinstansiasi
 
+
 if __name__ == "__main__":
     
     print("=== 4. BUKTI ABSTRAKSI (Uji Gagal Instansiasi Abstract Class) ===")
