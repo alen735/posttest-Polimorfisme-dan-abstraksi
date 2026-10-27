@@ -50,7 +50,7 @@ if __name__ == "__main__":
     print("=" * 60)
     
     daftar_entitas = [
-        Pasien("Andi", "6471012345678901", "RM-001", "Demam Berdarah"),
+        Pasien("Andi", "6471012345678901", "RM-001", "Panas"),
         Dokter("dr.Budi", "6471111111111111", "DOC-101", "Penyakit Dalam")
     ]
 
