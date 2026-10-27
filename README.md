@@ -21,6 +21,7 @@ Penjelasan : Hubungan antarapasien dan rekam medis, dimana rekam medis merupakan
 bukti abstract class yang tidak dapat diinstansiasi
 
 if __name__ == "__main__":
+    
     print("=== 4. BUKTI ABSTRAKSI (Uji Gagal Instansiasi Abstract Class) ===")
     try:
         orang_gagal = Orang("Uji Coba", "1234567890123456", "Jl. Merdeka")
