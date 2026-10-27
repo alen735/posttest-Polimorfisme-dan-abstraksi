@@ -1,4 +1,5 @@
 <img width="442" height="282" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/feb99ba6-187f-4f66-bb81-a3fca012576e" />
+
 Assosiasi
 Relasi : Antara class Dokter dan class pasien
 penjelasan : Hubungan umum antar kelas yang dimana objek-objek saling berinteraksi atau terhubung ( seperti dokter dan pasien dalam layanan pemeriksaan).
