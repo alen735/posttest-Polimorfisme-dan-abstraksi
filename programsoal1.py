@@ -48,5 +48,5 @@ if __name__ == "__main__":
     klinik.tambah_dokter(dokter1)
     klinik.info_klinik()
 
-    pasien1 = Pasien("Andi", "456", "Flu berat", "RM01", "ISPA")
+    pasien1 = Pasien("Andi", "456", "Panas", "RM001", "Demam Berdarah")
     Pemeriksaan.periksa_pasien(dokter1, pasien1)
